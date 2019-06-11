@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+	<document type="stimulators" version="1">
+		<set name="ASDB Stimulators" active="1">
+			<stimulator>
+				<signal_path value="/fluxodados/clock"/>
+				<rawdescription value="CLK:FRM:Override:100.000000;2;1;0;50;1:Clock:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/fluxodados/dado"/>
+				<rawdescription value="VAL:FRM:Override:1100000000:&lt;= 1100000000:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/fluxodados/write_enable"/>
+				<rawdescription value="VAL:FRM:Override:00:&lt;= 00:0:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/fluxodados/write_enable_reg"/>
+				<rawdescription value="VAL:FRM:Override:00:&lt;= 00:1:"/>
+			</stimulator>
+		</set>
+	</document>
+</XML>

@@ -1,0 +1,147 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+
+<!----------------------------------------------------------------------------->
+<!--                          BEGIN HTML HEAD                                -->
+<!--                                                                         -->
+
+<HEAD>
+<TITLE>DRC Report File - modo_operacao.bde</TITLE>
+<STYLE>
+.Err	{color:#FF0000;cursor:hand;text-decoration:underline;}
+.Warn	{color:#0000FF;cursor:hand;text-decoration:underline;}
+.Info	{color:#000000;cursor:hand;text-decoration:underline;}
+.Sccss  {color:#009600;cursor:hand;text-decoration:underline;}
+.ErrH	{color:#FF0000;cursor:hand;text-decoration:underline;}
+.WarnH	{color:#0000FF;cursor:hand;text-decoration:underline;}
+.InfoH	{color:#000000;cursor:hand;text-decoration:underline;}
+.Err1	{color:#FF0000;}
+.Warn1	{color:#0000FF;}
+.Info1	{color:#000000;}
+.Sccss1 {color:#009600;}
+</STYLE>
+</HEAD>
+<BODY BGCOLOR="white" TEXT="black" LINK="blue" VLINK="purple" BACKGROUND="C:\Aldec\Active-HDL-Student-Edition\\Flows\Res\default.bmp">
+<FONT FACE="Serif">
+<tt>
+<!--                                                                         -->
+<!--                             END HEADER                                  -->
+<!----------------------------------------------------------------------------->
+
+<!----------------------------------------------------------------------------->
+<!--                            BEGIN VBSCRIPT                               -->
+<!--                                                                         -->
+<SCRIPT LANGUAGE=JSCRIPT>
+	function RollOn() {
+		switch(window.event.srcElement.className) {
+			case 'Err':
+				window.event.srcElement.className = 'ErrH'; break;
+			case 'Warn':
+				window.event.srcElement.className = 'WarnH'; break;
+			case 'Info':
+				window.event.srcElement.className = 'InfoH'; break;
+		}
+	}
+	function RollOff() {
+		switch(window.event.srcElement.className) {
+			case 'ErrH':
+				window.event.srcElement.className = 'Err'; break;
+			case 'WarnH':
+				window.event.srcElement.className = 'Warn'; break;
+			case 'InfoH':
+				window.event.srcElement.className = 'Info'; break;
+		}
+	}
+	function OnError(sMsg,sUrl,sLine) {
+		return true;
+	}
+	
+	document.onmouseover = RollOn;
+	document.onmouseout = RollOff;
+	window.onerror = OnError;
+</SCRIPT>
+
+<SCRIPT LANGUAGE=VBSCRIPT>
+
+Function IID_IDispatch
+	IID_IDispatch = "{00020400-0000-0000-C000-000000000046}"
+End Function
+
+Function CLSID_Executor
+	CLSID_Executor = "Aldec.ExePlugIn.Generic.7"
+End Function
+
+
+Sub OpenPlugIn (progid, template, document, element, string)
+
+	Dim executor, command
+
+	Set executor = window.external.aldec.connector.OpenPlugIn(CLSID_Executor, IID_IDispatch)
+
+	command = "?Activate[<"+progid+">][<"+template+">][<"+document+">][<"+element+">][<"+string+">]"
+
+	executor.ExecuteCommand command, ""
+
+End Sub
+
+
+</SCRIPT>
+<!--                                                                         -->
+<!--                             END VBSCRIPT                                -->
+<!----------------------------------------------------------------------------->
+
+<H2>DRC Report File - modo_operacao.bde</H2>
+
+Created on Thu 2019-06-06 at 16:24:01
+<HR NOSHADE COLOR="#008080">
+<SPAN class=Info1>Checking file 'c:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador\multiplicador\src\modo_operacao.bde'.</SPAN><BR>
+<SPAN class=Info1>
+	<p class = Warn1 style=font-weight:bold;margin-top:0px;margin-bottom:0px>Symbols with contents differences
+	</p><ul style=margin-left:30px;margin-top:0px;margin-bottom:0px>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=9');>	<a href=file://c:/Users/gabig/Documents/Trabalhos/Org Arq/Coprocessador/multiplicador/log/modo_operacao_raiz_quadrada_diff.html>Symbol 'raiz_quadrada' from library 'multiplicador'</a></a></li></ul></SPAN><BR>
+<SPAN class=Info1>
+	<p class = Warn1 style=font-weight:bold;margin-top:0px;margin-bottom:0px>Ambiguous range in net mapping
+	</p><ul style=margin-left:30px;margin-top:0px;margin-bottom:0px>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=2,69');>	'Rega' instance: 'D(NumeroBits - 1:0)' input bus pin and 'dadoa(15:0)' input bus terminal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=2,81');>	'Rega' instance: 'Q(NumeroBits - 1:0)' output bus pin and 'saidaa(15:0)' bus signal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=3,70');>	'Regb' instance: 'D(NumeroBits - 1:0)' input bus pin and 'dadob(15:0)' input bus terminal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=3,82');>	'Regb' instance: 'Q(NumeroBits - 1:0)' output bus pin and 'saidab(15:0)' bus signal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=4,71');>	'Regcmd' instance: 'D(NumeroBits - 1:0)' input bus pin and 'dadocmd(1:0)' input bus terminal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=4,88');>	'Regcmd' instance: 'Q(NumeroBits - 1:0)' output bus pin and 'saidacmd(1:0)' bus signal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=5,72');>	'Rege' instance: 'D(NumeroBits - 1:0)' input bus pin and 'dadoe(3:0)' bus signal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=5,78');>	'Rege' instance: 'Q(NumeroBits - 1:0)' output bus pin and 'saidae(3:0)' bus signal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=6,80');>	'Regst' instance: 'D(NumeroBits - 1:0)' input bus pin and 'result(31:0)' bus signal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=6,85');>	'Regst' instance: 'Q(NumeroBits - 1:0)' output bus pin and 'output_int(31:0)' bus signal</a></li></ul></SPAN><BR>
+<SPAN class=Info1>
+	<p class = Warn1 style=font-weight:bold;margin-top:0px;margin-bottom:0px>Nets without source
+	</p><ul style=margin-left:30px;margin-top:0px;margin-bottom:0px>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=59');>	'ra' wire signal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=60');>	'rb' wire signal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=61');>	'rcmd' wire signal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=62');>	're' wire signal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=63');>	'rst' wire signal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=64');>	'sa' wire signal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=55');>	'sb' wire signal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=56');>	'scmd' wire signal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=57');>	'se' wire signal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=58');>	'sst' wire signal</a></li></ul></SPAN><BR>
+<SPAN class=Info1>
+	<p class = Warn1 style=font-weight:bold;margin-top:0px;margin-bottom:0px>Nets without load
+	</p><ul style=margin-left:30px;margin-top:0px;margin-bottom:0px>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=29');>	'read_enable' input wire terminal</a></li></ul></SPAN><BR>
+<SPAN class=Info1>
+	<p class = Warn1 style=font-weight:bold;margin-top:0px;margin-bottom:0px>Hanging nets
+	</p><ul style=margin-left:30px;margin-top:0px;margin-bottom:0px>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=52');>	'rest' wire signal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=53');>	'saidast' bus signal</a></li></ul></SPAN><BR>
+<SPAN class=Info1>
+	<p class = Warn1 style=font-weight:bold;margin-top:0px;margin-bottom:0px>Unconnected terminals
+	</p><ul style=margin-left:30px;margin-top:0px;margin-bottom:0px>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:\\Users\\gabig\\Documents\\Trabalhos\\Org Arq\\Coprocessador\\multiplicador\\src\\modo_operacao.bde','','-errorid=29');>	'read_enable' input wire terminal</a></li></ul></SPAN><BR>
+<SPAN class=Warn1>modo_operacao.bde - 0 error(s), 25 warning(s)</SPAN><BR>
+<SPAN class=Info1>DRC process completed in 2 second(s).</SPAN><BR>
+</tt>
+</FONT>
+       
+        </BODY>
+</HTML>

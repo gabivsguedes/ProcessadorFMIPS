@@ -1,0 +1,10 @@
+.\src\multiplicador_16.vhd
+.\src\mult_level1.vhd
+.\src\mult_level2.vhd
+.\src\modo_operacao.vhd
+.\src\registrador.vhd
+.\src\raiz_quadrada.vhd
+.\src\somador.vhd
+.\src\raiz.vhd
+.\src\unidade_controle_copro.vhd
+.\src\fluxodados.vhd

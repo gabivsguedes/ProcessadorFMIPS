@@ -1,0 +1,27 @@
+251
+~E 1 "./../src/fluxodados.vhd" 5 fluxodados
+~A 1 "./../src/fluxodados.vhd" 16 exercicio
+~E 1 "./../src/modo_operacao.vhd" 5 modo_operacao
+~A 1 "./../src/modo_operacao.vhd" 16 ex1
+~A 1 "./../src/unidade_controle_copro.vhd" 17 exe1
+~A 1 "./../src/modo_operacao.vhd" 16 exercico
+~E 1 "./../src/mult_level1.vhd" 5 mult_level1
+~A 1 "./../src/mult_level1.vhd" 14 ex1
+~E 1 "./../src/mult_level2.vhd" 5 mult_level2
+~A 1 "./../src/mult_level2.vhd" 14 ex1
+~E 1 "./../src/multiplicador_16.vhd" 5 multiplicador_16
+~A 1 "./../src/multiplicador_16.vhd" 14 ex1
+~A 1 "./../src/multiplicador_16.vhd" 14 exo1
+~E 1 "./../src/raiz.vhd" 5 raiz
+~A 1 "./../src/raiz.vhd" 16 exoo1
+~A 1 "./../src/raiz.vhd" 16 raiz
+~E 1 "./../src/raiz_quadrada.vhd" 5 raiz_quadrada
+~A 1 "./../src/raiz_quadrada.vhd" 14 ex1
+~A 1 "./../src/raiz_quadrada.vhd" 14 exo1
+~E 1 "./../src/registrador.vhd" 23 registrador
+~A 1 "./../src/registrador.vhd" 39 exo1
+~A 1 "./../src/registrador.vhd" 40 registrador
+~E 1 "./../src/somador.vhd" 26 Somador
+~A 1 "./../src/somador.vhd" 41 Somador
+~E 1 "./../src/unidade_controle_copro.vhd" 5 unidade_controle_copro
+~A 1 "./../src/unidade_controle_copro.vhd" 17 exe1

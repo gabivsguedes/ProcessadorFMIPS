@@ -1,0 +1,98 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Entity multiplicador.fluxodados has been compiled after architecture multiplicador.unidade_controle_copro(exe1) that instantiates and binds this entity at simulation initialization. Recompile the source files in the correct order to perform the binding operation during compilation and simultaneously reduce the time required to initialize the simulation.
+# ELBREAD: Warning: The contents of entity 'fluxodados' instantiated in architecture 'exe1' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Elaboration time 0.2 [s].
+# Design Explorer: Shortcut to "C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\Coprocessador.aws" design added.
+acom -O3 -e 100 -work multiplicador -2002  $dsn/src/multiplicador_16.vhd $dsn/src/mult_level1.vhd $dsn/src/mult_level2.vhd $dsn/src/modo_operacao.vhd $dsn/src/registrador.vhd $dsn/src/raiz_quadrada.vhd $dsn/src/somador.vhd $dsn/src/raiz.vhd $dsn/src/unidade_controle_copro.vhd $dsn/src/fluxodados.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\multiplicador_16.vhd
+# Compile Entity "multiplicador_16"
+# Compile Architecture "exo1" of Entity "multiplicador_16"
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\mult_level1.vhd
+# Compile Entity "mult_level1"
+# Compile Architecture "ex1" of Entity "mult_level1"
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\mult_level2.vhd
+# Compile Entity "mult_level2"
+# Compile Architecture "ex1" of Entity "mult_level2"
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\modo_operacao.vhd
+# Compile Entity "modo_operacao"
+# Compile Architecture "exercico" of Entity "modo_operacao"
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\registrador.vhd
+# Compile Entity "registrador"
+# Compile Architecture "exo1" of Entity "registrador"
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\raiz_quadrada.vhd
+# Compile Entity "raiz_quadrada"
+# Compile Architecture "exo1" of Entity "raiz_quadrada"
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\somador.vhd
+# Compile Entity "Somador"
+# Compile Architecture "Somador" of Entity "Somador"
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\raiz.vhd
+# Compile Entity "raiz"
+# Compile Architecture "exoo1" of Entity "raiz"
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\unidade_controle_copro.vhd
+# Compile Entity "unidade_controle_copro"
+# Compile Architecture "exe1" of Entity "unidade_controle_copro"
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\fluxodados.vhd
+# Compile Entity "fluxodados"
+# Compile Architecture "exercicio" of Entity "fluxodados"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work multiplicador -2002  $dsn/src/unidade_controle_copro.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\unidade_controle_copro.vhd
+# Compile Entity "unidade_controle_copro"
+# Compile Architecture "exe1" of Entity "unidade_controle_copro"
+# Error: COMP96_0019: unidade_controle_copro.vhd : (96, 2): Keyword 'when' expected.
+# Error: COMP96_0015: unidade_controle_copro.vhd : (96, 2): ';' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work multiplicador -2002  $dsn/src/unidade_controle_copro.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\unidade_controle_copro.vhd
+# Compile Entity "unidade_controle_copro"
+# Compile Architecture "exe1" of Entity "unidade_controle_copro"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work multiplicador -2002  $dsn/src/multiplicador_16.vhd $dsn/src/mult_level1.vhd $dsn/src/mult_level2.vhd $dsn/src/modo_operacao.vhd $dsn/src/registrador.vhd $dsn/src/raiz_quadrada.vhd $dsn/src/somador.vhd $dsn/src/raiz.vhd $dsn/src/unidade_controle_copro.vhd $dsn/src/fluxodados.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\multiplicador_16.vhd
+# Compile Entity "multiplicador_16"
+# Compile Architecture "exo1" of Entity "multiplicador_16"
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\mult_level1.vhd
+# Compile Entity "mult_level1"
+# Compile Architecture "ex1" of Entity "mult_level1"
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\mult_level2.vhd
+# Compile Entity "mult_level2"
+# Compile Architecture "ex1" of Entity "mult_level2"
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\modo_operacao.vhd
+# Compile Entity "modo_operacao"
+# Compile Architecture "exercico" of Entity "modo_operacao"
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\registrador.vhd
+# Compile Entity "registrador"
+# Compile Architecture "exo1" of Entity "registrador"
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\raiz_quadrada.vhd
+# Compile Entity "raiz_quadrada"
+# Compile Architecture "exo1" of Entity "raiz_quadrada"
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\somador.vhd
+# Compile Entity "Somador"
+# Compile Architecture "Somador" of Entity "Somador"
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\raiz.vhd
+# Compile Entity "raiz"
+# Compile Architecture "exoo1" of Entity "raiz"
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\unidade_controle_copro.vhd
+# Compile Entity "unidade_controle_copro"
+# Compile Architecture "exe1" of Entity "unidade_controle_copro"
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\fluxodados.vhd
+# Compile Entity "fluxodados"
+# Compile Architecture "exercicio" of Entity "fluxodados"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work multiplicador -2002  $dsn/src/unidade_controle_copro.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\unidade_controle_copro.vhd
+# Compile Entity "unidade_controle_copro"
+# Compile Architecture "exe1" of Entity "unidade_controle_copro"
+# Error: COMP96_0078: unidade_controle_copro.vhd : (61, 7): Unknown identifier "ready_int".
+# Error: COMP96_0133: unidade_controle_copro.vhd : (61, 7): Cannot find object declaration.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work multiplicador -2002  $dsn/src/unidade_controle_copro.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\gabig\Documents\Trabalhos\Org Arq\Coprocessador - unidade controle\multiplicador\src\unidade_controle_copro.vhd
+# Compile Entity "unidade_controle_copro"
+# Compile Architecture "exe1" of Entity "unida

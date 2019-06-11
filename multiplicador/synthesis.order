@@ -1,0 +1,13 @@
+i<>.\src\mult.vhd
+i<>.\src\mult_level1.vhd
+i<>.\src\mult_level2.vhd
+i<>.\src\modo_operacao.vhd
+i<>.\src\registrador.vhd
+i<>.\src\raiz_quadrada.vhd
+i<>.\src\somador.vhd
+i<>.\src\raiz_quadrada.bde
+i<>.\src\raiz2.vhd
+i<>.\..\..\Trabalho\raiz_quadrada.bde
+i<>.\src\raiz.vhd
+i<>.\src\unidade_controle_copro.vhd
+i<>.\src\fluxodados.vhd

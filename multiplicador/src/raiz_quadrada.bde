@@ -1,0 +1,89 @@
+SCHM0106
+
+HEADER
+{
+ FREEID 6
+ VARIABLES
+ {
+  #ARCHITECTURE="ex1"
+  #BLOCKTABLE_FILE="#HDL2DIAGRAM.bde"
+  #ENTITY="raiz_quadrada"
+  #LANGUAGE="VHDL"
+  AUTHOR="gabigabiguedes@hotmail.com"
+  COMPANY="USP"
+  CREATIONDATE="30/05/2019"
+  SOURCE=".\\..\\src\\raiz_quadrada.vhd"
+ }
+}
+
+PAGE ""
+{
+ PAGEHEADER
+ {
+  MARGINS (200,200,200,200)
+  RECT (0,0,0,0)
+ }
+ 
+ BODY
+ {
+  VHDLDESIGNUNITHDR  1, 0, 0
+  {
+   LABEL "Design Unit Header"
+   TEXT 
+"library ieee;\n"+
+"use ieee.std_logic_1164.all;\n"+
+"use ieee.std_logic_arith.all;"
+   RECT (220,260,620,472)
+   MARGINS (20,20)
+   MULTILINE
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+  }
+  INSTANCE  2, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #CUSTOM_NAME=""
+    #LIBRARY="#terminals"
+    #REFERENCE="clock"
+    #SYMBOL="Input"
+    #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (820,240)
+  }
+  INSTANCE  3, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #CUSTOM_NAME=""
+    #LIBRARY="#terminals"
+    #REFERENCE="enable"
+    #SYMBOL="Input"
+    #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (820,300)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (768,240,768,240)
+   ALIGN 6
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (768,300,768,300)
+   ALIGN 6
+   PARENT 3
+  }
+ }
+ 
+}
+

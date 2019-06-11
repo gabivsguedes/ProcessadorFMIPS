@@ -1,0 +1,74 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=multiplicador
+
+[Library]
+multiplicador=.\multiplicador\multiplicador.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=C:\Users\gabig\Documents\Trabalhos\Org Arq
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+multiplicador=.
+Active_lib=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+
+[ORDER]
+Synchronize=1
+
+[Files]
+/multiplicador_16.vhd=-1
+/mult_level1.vhd=-1
+/mult_level2.vhd=-1
+/modo_operacao.vhd=-1
+/registrador.vhd=-1
+/raiz_quadrada.vhd=-1
+/somador.vhd=-1
+/raiz.vhd=-1
+/unidade_controle_copro.vhd=-1
+/fluxodados.vhd=-1
+
+[Files.Data]
+.\src\multiplicador_16.vhd=VHDL Source Code
+.\src\mult_level1.vhd=VHDL Source Code
+.\src\mult_level2.vhd=VHDL Source Code
+.\src\modo_operacao.vhd=VHDL Source Code
+.\src\registrador.vhd=VHDL Source Code
+.\src\raiz_quadrada.vhd=VHDL Source Code
+.\src\somador.vhd=VHDL Source Code
+.\src\raiz.vhd=VHDL Source Code
+.\src\unidade_controle_copro.vhd=VHDL Source Code
+.\src\fluxodados.vhd=VHDL Source Code
+
